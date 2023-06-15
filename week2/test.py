@@ -1,11 +1,5 @@
-import random
+def compute(x, y, z):
+    x = 7
 
-# Create a list of strings and assign
-# the list to a variable named words.
-words = ["boy", "girl", "cat", "dog", "bird", "house"]
-
-# Call the random.choice function which will choose
-# one string from the words list. Store the chosen
-# string in a variable named word.
-word = random.choice(words)
-print(word)
+    result = compute(3, 2, x)
+    print(result)
