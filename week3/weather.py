@@ -5,6 +5,7 @@ def cels_from_fahr(fahr):
         Celsius and return the Celsius temperature.
     """
     cels = (fahr - 32) * 5 / 9
+    
     return cels
 
 print(cels_from_fahr(-12))
