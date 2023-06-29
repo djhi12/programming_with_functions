@@ -101,13 +101,15 @@ def make_periodic_table():
 
 
 def main():
+    formula = input("Enter the chemical formula for a molecule: ")
+    mass = float(input("Enter the mass of the chemical sample in grams: "))
+
     periodic_table = make_periodic_table()
 
     for element in periodic_table:
-        symbol = element[0]
         name = element[1]
         atomic_mass = element[2]
         print(f"{name} {atomic_mass}")
 
-
+# Call the main function
 main()
