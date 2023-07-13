@@ -1,0 +1,56 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program? 
+
+Advance Calculator
+
+
+2. What real-world problem will your program address or help to solve?
+
+The program aims to address the need for a versatile calculator that can perform advanced mathematical calculations. It will provide functionality beyond basic arithmetic operations and include features such as scientific calculations, trigonometry, logarithms, complex numbers, and more. This calculator will help users solve complex mathematical problems efficiently.
+
+
+3. What will you learn from developing this program?
+
+Developing this program will allow me to enhance my understanding of Python programming concepts, especially in the context of building a complex application. I will learn about handling user input, implementing mathematical algorithms, organizing code into functions, and creating a user-friendly interface. Additionally, I will gain experience in testing and debugging code, improving code reusability, and following best practices in software development.
+
+
+4. What Python modules will your program use?
+
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)
+
+The program will primarily use built-in Python modules such as math, cmath, and decimal to perform mathematical operations and handle complex numbers. Depending on the requirements, additional modules like tkinter for creating a graphical user interface (GUI) or pytest for testing may be used.
+
+
+5. Will you separate your Python program into functions that each
+perform a single task?
+
+    (Remember that the most reusable functions don't get user input and
+    don't print results but instead have parameters and return a result.
+    Functions that get user input and print results are important and do
+    useful work but are not easily reusable.)
+
+    (Remember also that it's hard to test functions that get user input
+    and print results. It's easy to test functions that don't get user
+    input and don't print results but instead have parameters and return
+    a result. Therefore, you should write most of your program functions
+    to have parameters and return a result.)
+
+Yes, the Python program will be structured into functions that perform single tasks. This modular approach allows for better code organization, reusability, and maintainability. By separating different functionalities into functions, it becomes easier to test and debug individual components of the program. Functions that handle user input and display results will also be included to provide a user-friendly experience.
+
+
+6. Will you write test functions to test at least two of your program
+functions?
+
+Yes, test functions will be written to test at least two of the program's functions. Testing functions is an important aspect of software development to ensure the correctness of individual components. By writing test functions, we can verify that each function produces the expected output given specific inputs. This helps identify and fix any issues or bugs in the program. The pytest module can be utilized to create and run these test functions effectively.
+
