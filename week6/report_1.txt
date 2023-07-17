@@ -1,0 +1,68 @@
+First Report for a Student Chosen Project
+
+    (Please report on your progress toward completing your chosen
+    project by answering the following questions.)
+
+1. In the table below, list the dates, amount of time spent, and
+description of the work that you did on your project. Follow the example
+that is in the first row of the table below. Include the time you spent
+doing any of the following:
+
+    a. discussing your project with your teacher, tutor, or fellow students
+    b. researching by reading articles and watching applicable videos
+    c. designing your project by drawing diagrams and other applicable documents
+    d. writing experimental code
+    d. writing code for your project
+    e. writing test functions
+    f. debugging your code
+    g. any other activity that helped you complete your project
+
+            Time Spent
+   Date       (hours)   Description of Work
+----------  ----------  -------------------------
+2023-10-07      1    Read tutorials about the Python requests module
+2023-11-07      1    researching by reading articles and watching applicable videos
+2023-12-07      1    designing your project by drawing diagrams and other applicable documents
+2023-13-07      1    writing experimental code
+
+2. Write the names of the functions in your program.
+    a. display_menu()
+    b. get_user_choice()
+    c. add()
+    d. subtract()
+    e. multiply()
+    f. divide()
+    g. exponentiate()
+    h. square_root()
+    i. trigonometric_functions()
+    j. main()
+
+3. Answer the following questions about the functions in your program.
+    a. Does each function perform a single task?
+        Ans. Yes, each function in the program performs a single task. For example, the add() function performs addition, the subtract() function performs subtraction, multiply() function performs multiplication, and so on.
+
+    b. Does the name of each function describe or convey the task?
+        Ans. Yes, the name of each function describes or conveys the task it performs. For instance, add() adds two numbers, subtract() subtracts two numbers, multiply() multiplies two numbers, etc.
+    
+    c. Do most of your program functions have parameters and return a result?
+        Ans. Most of the program functions have parameters that allow the user to input the necessary data, and they display the result directly using the print statement rather than returning a value.
+
+    If you answered "no" to any of the above three questions, what are
+    you planning to change in your project?
+        Ans. No, since most of the functions don't return values, they are more suitable for printing the results directly to the console. 
+
+
+4. Write the names of the test functions that you wrote to test your
+program functions.
+    Ans. def test_add():
+    assert add(2, 3) == 5
+    assert add(0, 0) == 0
+    assert add(-5, 5) == 0
+
+def test_subtract():
+    assert subtract(5, 2) == 3
+    assert subtract(10, 10) == 0
+    assert subtract(-5, -2) == -3
+
+# Add test functions for the other calculator functions...
+
