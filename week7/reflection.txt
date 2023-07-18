@@ -1,0 +1,16 @@
+Please respond thoroughly (at least two sentences for each question) to
+the following three questions.
+
+1. Describe an experience you had this semester where you saw the power of
+functions.
+
+Ans. Functions proved their power during a semester project where I efficiently processed a large dataset by breaking down the task into modular functions, enabling easier debugging, maintenance, and code reuse for similar tasks.
+
+2. In your judgment, what is the value of test functions?
+
+Ans. Test functions are highly valuable as they ensure code correctness, catch bugs early, and act as a safety net during code evolution, contributing to improved code quality, maintainability, and developer confidence.
+
+3. Describe your process for troubleshooting and fixing a program that
+has a problem. What is one thing you can do to improve your process?
+
+Ans. When troubleshooting and fixing a problematic program, I first try to identify the specific issue by examining error messages, checking logs, and using debugging tools like print statements or IDE debuggers. If the problem remains elusive, I break down the program into smaller parts and test each component separately to pinpoint the problematic area. 
